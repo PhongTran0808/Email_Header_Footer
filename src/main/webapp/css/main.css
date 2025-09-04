@@ -1,0 +1,75 @@
+/* =======================
+   CSS cho index.html
+   ======================= */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #555;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background: #00796b;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background: #005a46;
+}
+
+/* =======================
+   CSS cho thanks.html
+   ======================= */
+.thanks-container {
+    width: 500px;
+    margin: 100px auto;
+    text-align: center;
+    background: #eafaf1;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.15);
+}
+
+.thanks-container h2 {
+    color: #2e7d32;
+    margin-bottom: 20px;
+}
+
+.thanks-container p {
+    font-size: 16px;
+    color: #444;
+}
